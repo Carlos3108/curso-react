@@ -8,6 +8,7 @@ import "./App.css"
 import Familia from "./components/basic/Familia"
 import FamiliaMembro from "./components/basic/FamiliaMembro"
 import ListaAlunos from "./components/repeticao/ListaAluno"
+import ListaProduto from "./components/repeticao/ListaProduto"
 
 export default function App() {
     return (
@@ -39,6 +40,9 @@ export default function App() {
                 </Card>
                 <Card titulo="#06 - Repetição" color="#e76f51">
                     <ListaAlunos/>
+                </Card>
+                <Card titulo="#07 - Desáfio Repetição" color="#e76f51">
+                    <ListaProduto/>
                 </Card>
             </div>
         </div>
