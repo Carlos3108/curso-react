@@ -7,6 +7,7 @@ import Card from "./components/layout/Card"
 import "./App.css"
 import Familia from "./components/basic/Familia"
 import FamiliaMembro from "./components/basic/FamiliaMembro"
+import ListaAlunos from "./components/repeticao/ListaAluno"
 
 export default function App() {
     return (
@@ -35,6 +36,9 @@ export default function App() {
                         <FamiliaMembro nome="Vitoria" />
                         <FamiliaMembro nome="Thais" />
                     </Familia>
+                </Card>
+                <Card titulo="#06 - Repetição" color="#e76f51">
+                    <ListaAlunos/>
                 </Card>
             </div>
         </div>
