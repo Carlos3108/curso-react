@@ -9,6 +9,7 @@ import Familia from "./components/basic/Familia"
 import FamiliaMembro from "./components/basic/FamiliaMembro"
 import ListaAlunos from "./components/repeticao/ListaAluno"
 import ListaProduto from "./components/repeticao/ListaProduto"
+import ParImpar from "./components/condicional/ParImpar"
 
 export default function App() {
     return (
@@ -41,8 +42,11 @@ export default function App() {
                 <Card titulo="#06 - Repetição" color="#e76f51">
                     <ListaAlunos/>
                 </Card>
-                <Card titulo="#07 - Desáfio Repetição" color="#e76f51">
+                <Card titulo="#07 - Desáfio Repetição" color="#3A9AD9">
                     <ListaProduto/>
+                </Card>
+                <Card titulo="#08 - Renderização Condicional" color="#982395">
+                    <ParImpar numero={20}/>
                 </Card>
             </div>
         </div>
