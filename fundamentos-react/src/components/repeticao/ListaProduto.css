@@ -1,0 +1,12 @@
+.ListaProduto table {
+    width: 100%;
+}
+
+.ListaProduto th {
+    background-color: #283cae;
+    color: #fff;
+}
+
+.ListaProduto .Par {
+    background-color: #ddd;
+}

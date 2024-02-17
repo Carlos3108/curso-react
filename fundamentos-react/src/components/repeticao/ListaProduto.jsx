@@ -1,21 +1,23 @@
+import './ListaProduto.css';
 import React from "react";
 import produtos from "../../data/produtos";
 
 export default function ListaProduto(){
     function getLinhas(){
-        return produtos.map(produto => {
+        return produtos.map((produto, i) => {
             return (
-                <tr key={produto.id}>
+                <tr key={produto.id} className={i % 2 === 0 ? 'Par': ''}>
                     <td>{produto.id}</td>
                     <td>{produto.nome}</td>
-                    <td>R$ {produto.preco}</td>
+                    <td>R$ {produto.preco.toFixed(2)}</td>
                 </tr>
             )
         })
     }
+
     return (
-        <div> 
-            <table border={1} width={400} align="center">
+        <div className="ListaProduto"> 
+            <table>
                 <thead>
                     <tr>
                         <th>Código</th>

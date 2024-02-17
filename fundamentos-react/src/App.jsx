@@ -46,7 +46,7 @@ export default function App() {
                     <ListaProduto/>
                 </Card>
                 <Card titulo="#08 - Renderização Condicional" color="#982395">
-                    <ParImpar numero={20}/>
+                    <ParImpar numero={15}/>
                 </Card>
             </div>
         </div>
